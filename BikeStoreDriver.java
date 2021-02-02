@@ -1,3 +1,8 @@
+/**
+ * Driver for the Bike class and all its children
+ * Creates 3 types of Bikes and prints their attributes and price
+ * @author portiaportia
+ */
 public class BikeStoreDriver {
 
 	public void runBikeStore() {
