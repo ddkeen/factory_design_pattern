@@ -10,9 +10,9 @@ public abstract class Bike {
 	public void createBike() {
 
         createFrame();
-        addPedals();
         addWheels();
         addPedals();
+        getPrice();
 	}
 	
 	private void createFrame() {
@@ -21,21 +21,21 @@ public abstract class Bike {
 	
 	private void addWheels() {
         if(numWheels != 0) {
-            System.out.println("Adding " + numWheels + " wheels");
+            System.out.println("Adding " + numWheels + " wheel(s)");
             if(hasTrainingWheels) {
-                System.out.print("Adding Training Wheels");
+                System.out.println("Adding training wheels");
             }
         }
 	}
 	
 	private void addPedals() {
         if(hasPedals) {
-            System.out.println("Adding Pedals");
+            System.out.println("Adding pedals");
         }
 	}
 	
 	public void getPrice() {
-		System.out.println(price);
+		System.out.println("Price: $" + price);
 	}
     
 }
