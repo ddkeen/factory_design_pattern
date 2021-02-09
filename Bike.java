@@ -55,6 +55,5 @@ public abstract class Bike {
      */
     public void getPrice() {
 	    System.out.println("Price: $" + price);
-    }
-    
+    }  
 }
